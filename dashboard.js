@@ -25,6 +25,9 @@
   function show(data){
     const {stats,collection}=data;const e=stats.emissions;
     if(!e || !Array.isArray(e.byMode) || !Number.isFinite(e.weeklyKg) || !Number.isFinite(stats.respondents))throw new Error('Formato de resposta inesperado.');
+    const km=e.totalKm??stats.weeklyKm,flight=km*.225;
+    byId('distance').textContent=number(km,1);byId('flight-total').textContent=carbon(flight);
+    byId('flight-ratio').textContent=!stats.respondents||!km?'Aguardando as distâncias da turma.':!e.complete?'Turma com estimativa parcial: razão não calculada.':e.weeklyKg===0?'A estimativa da turma é zero; razão não aplicável.':`${number(flight/e.weeklyKg)}× a pegada da turma · ${carbon(Math.abs(flight-e.weeklyKg))} kg ${flight>=e.weeklyKg?'a mais':'a menos'}.`;
     byId('people').textContent=number(stats.respondents,0);byId('total').textContent=carbon(e.weeklyKg);byId('average').textContent=carbon(e.averageWeeklyKg);
     byId('date').textContent='Coleta '+collection.date.split('-').reverse().join('/');
     const totals=rows.map(r=>{const matches=e.byMode.filter(m=>r.keys.includes(m.key));return matches.some(m=>m.kg===null)?null:matches.reduce((s,m)=>s+m.kg,0);});
