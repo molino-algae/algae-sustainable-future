@@ -16,5 +16,6 @@
  const gameFrame=document.getElementById('game-frame'),cover=document.getElementById('game-cover'),load=document.getElementById('load-game');
  load.addEventListener('click',()=>{load.textContent='Carregando…';load.disabled=true;gameFrame.addEventListener('load',()=>{cover.hidden=true;gameFrame.focus();},{once:true});gameFrame.src=gameFrame.dataset.gameUrl;gameFrame.hidden=false;});
  document.getElementById('game-qr-button').addEventListener('click',()=>document.getElementById('game-qr-dialog').showModal());
+ document.addEventListener('justlab:poll-started',()=>deck.slide(1));
  deck.on('ready',sync);deck.on('slidechanged',sync);deck.initialize();
 })();

@@ -25,3 +25,11 @@ GitHub Pages serves the presentation. The commute API and database remain at the
 See CREDITS.md for the full slide notes and sources. reveal.js is bundled under its MIT license in vendor/reveal-LICENSE. Source: https://github.com/hakimel/reveal.js .
 
 GitHub Pages source: main branch, root folder, with .nojekyll.
+
+## Start a fresh poll
+
+Use Enquete in the presentation controls, then Salvar e iniciar nova enquete. The previous poll closes and remains in the shared database; the new poll begins with zero responses and the presentation QR updates automatically. The active poll is stored online and is shared across browsers.
+
+Only the instructor management link can start a poll or view the archive and CSV exports. If this browser has not saved it, paste the existing class management link into the Enquete dialog. An instructor link can also open the presentation with #manage=YOUR_KEY; the key is then kept in browser storage and removed from the address. Never commit a real management key.
+
+The root classroom is 5DHYXTGV. The public /api/rooms/ROOT/polls endpoint resolves the active room. Its authenticated POST atomically closes and archives the previous room and creates a new room; retries are idempotent. The protected GET returns the poll archive. For a different teaching group, use ?poll=ROOM_CODE.
