@@ -1,115 +1,207 @@
-# Slide sources and teaching notes
+# Créditos e fontes
 
-The original lecture visuals are preserved as images. Rights remain with the credited authors and providers; the repository does not grant a blanket license to third-party images.
+As fontes abaixo acompanham as notas dos 21 slides e a auditoria em português. Os direitos das fotografias e artigos permanecem com seus titulares. O redesenho didático de gráficos não implica licença sobre todo o material fornecido.
 
-## 1. Algae: fuels and materials
+## 1 Algas: combustíveis e materiais
 
-TIMING: 0–3 min. Start the 12-minute commuting activity immediately. Ask everyone for their main travel mode, approximate one-way route distance, campus days and vehicle occupancy. Use a quick show of hands or poll. No addresses. Record mixed-mode legs when needed. This is the title slide and the activity opening.
-VISUAL SOURCE: Abhishek Gupta, Our Sustainable Future, Lecture 10 Transportation, supplied PDF page 1. Original embedded photo extracted without the course title overlay.
-CLASS PLAN: 12-minute activity, 38-minute talk, 10-minute Algae Farm activity. Deck uses short English titles, matching the planning conversation.
+00–01 min. Apresente a pergunta central: como substituir tanto energia quanto matérias-primas derivadas de petróleo? Abra imediatamente o QR do próximo slide. Roteiro de 60 min: mobilidade e ciclo de vida até 12 min, exposição até 50 min, jogo e discussão nos últimos 10 min. A fotografia do material fornecido é uma abertura visual, sem demonstrar um benefício quantitativo.
 
-## 2. Como chegamos ao campus?
+FONTES
+R01 — Material fornecido da disciplina Sustainable Future · PDFs indexados no arquivo da aula. As páginas citadas são páginas do PDF, sem equivaler necessariamente à numeração interna dos slides. 
+R38 — Apresentação pública da aula · 21 slides HTML com enquete de mobilidade e jogo incorporados. https://molino-algae.github.io/algae-sustainable-future/
 
-TIMING: 3–12 min. Ask students to scan the QR and describe a typical week: campus days, approximate one-way distance and transport on each day. No addresses or names. The live viewer shows the class total and mean per respondent in kg CO₂e per typical week, using the shared API. Carpool occupancy includes the driver. Individual results appear on each student’s phone. The current scenario uses ADEME/Impact CO₂, France, as a teaching reference; it is not a measured Brazilian fleet. Unknown-mode distance is shown as partial coverage. The collection uses São Paulo calendar dates, and earlier collections remain in the instructor dashboard.
-SOURCE: https://impactco2.fr/outils/transport ; student form: https://molino-algae.github.io/justlab-site/commute/?room=5DHYXTGV .
-The next slide introduces life-cycle boundaries. Its ECF bicycle example uses a different study and boundary, including separate dietary assumptions; do not compare its numerical values directly with the ADEME viewer or add manufacture a second time.
+## 2 Como chegamos ao campus?
 
-## 3. Beyond the ride
+01–10 min. Descreva uma semana habitual. Ida e volta são trajetos separados, até 14; distribua os trajetos entre os modos e informe a distância aproximada de um percurso. Carona +1 inclui quem dirige e mais uma pessoa. Não peça nome nem endereço. O aplicativo mostra no celular a estimativa individual e no painel a soma e a média por respondente, em kg CO₂e por semana habitual. Pessoas sem deslocamento entram na média. A distância é passageiro-km, sem descontar caronas da soma das pessoas.
 
-TIMING: 8–12 min. Ask students what happens before and after the ride. Use the diagram to introduce goal, boundary, lifetime and allocation. The ECF/TNO bicycle example assigns about 5 g CO2e/km to manufacture and maintenance over 8 years at 2,400 km/year (19,200 km). Food assumptions contribute separately in that study. The diagram is a general life-cycle framework; the ECF comparison excludes infrastructure and disposal. The live dashboard uses the ADEME/Impact CO₂ reference, which has a different boundary from the ECF dietary scenario described here. Do not compare these factors as if they came from the same model or add manufacturing twice. A lower footprint does not remove safety, access and disability constraints on travel choices.
-SOURCES: supplied Lecture 5 PDF p18, original diagram credited to IFCO; https://www.ifco.com/life-cycle-assessment-impact/ . ECF (2011) printed pp9–11: https://ecf.com/media/resources/2016/ECF_CO2_WEB.pdf .
+Fatores ADEME França são referências didáticas, sem medir a frota brasileira. Uber é aproximação de carro com um passageiro pagante, sem percursos vazios; outro/combinado deixa a estimativa parcial. Exemplo para discutir: 14 × 8 km, sete trajetos de ônibus e sete de bicicleta, resultam em 6,86504 kg CO₂e. Com Bruno (80 km de carro), a turma fictícia soma 192 passageiro-km e 20,44168 kg; média 10,22084 kg.
 
-## 4. The fossil-energy surge
+A comparação de voo usa a mesma distância de passageiros e o fator 0,225 kg CO₂e/passageiro-km, incluindo rastros de condensação. Para a turma fictícia, 43,2 kg, razão 2,11. Não é um voo real de 192 km nem um avião inteiro. A razão depende das respostas e pode ser indefinida ou parcial. Os dados anteriores continuam guardados. O botão Enquete permite salvar e iniciar outra coleta com o link pessoal de gestão. Não compartilhe esse link com os alunos.
 
-TIMING: 12–15 min. Ask students to locate their grandparents' lifetimes on the curve. The quantitative series begins in 1800 and ends in 2023. It shows global fossil primary-energy consumption, measured in TWh, separated into coal, oil and gas. Use a verbal long-history perspective rather than extending measured data back 10,000 years. Link fossil carbon's geological storage to rapid combustion and rising emissions.
-SOURCES: original graph extracted from supplied Lecture 1 PDF p10. Our World in Data, Global fossil fuel consumption, citing Energy Institute Statistical Review and Smil. https://ourworldindata.org/fossil-fuels . Oil photograph extracted from Lecture 2 PDF p7, whose image/source credits point to EIA/DOE. Preserve the dates shown in the supplied graph.
-LAYOUT: The explanatory footnotes and source title are cropped for projection; all plotted data, axes, series labels and original data-source attribution are retained.
+FONTES
+R05 — ADEME e Impact CO₂ base fixada de transporte · Arquivo de dados no commit db 0 e 80 a 605 e 3 b 3 fe 5 c 49 bde 3 bceabced 4 b 179656, comparado às constantes do aplicativo. https://github.com/incubateur-ademe/impactco2/blob/db0e80a605e3b3fe5c49bde3bceabced4b179656/src/data/categories/deplacement.ts
+R06 — ADEME carro compacto ou médio a gasolina · Valor exibido arredondado: 170 g CO₂e/passageiro-km; separação entre fabricação e combustível. https://impactco2.fr/outils/transport/voiture-compact-essence
+R07 — ADEME ônibus a combustão · Valor exibido arredondado: 122 g CO₂e/passageiro-km. https://impactco2.fr/outils/transport/busthermique
+R32 — ADEME voo curto · 225 g CO₂e/passageiro-km para rotas de 300–1.000 km, incluindo rastros de condensação e excluindo infraestrutura. https://impactco2.fr/outils/transport/avion-courtcourrier
+R33 — ADEME voo médio · 185 g CO₂e/passageiro-km para rotas de 1.000–2.000 km. https://impactco2.fr/outils/transport/avion-moyencourrier
+R34 — ADEME voo longo · 178 g CO₂e/passageiro-km para rotas acima de 5.000 km. https://impactco2.fr/outils/transport/avion-longcourrier
 
-## 5. Energy options
+## 3 Além do trajeto
 
-TIMING: 15–17 min. The supplied 2022 world total-energy-supply chart reports coal 27.8%, oil 30.2%, and natural gas 23.7%. Their sum is 81.7%; all other sources sum to 18.3%. The two-part pie deliberately groups the original categories, without equating every other source to low-carbon supply. Images show solar, wind and nuclear as examples. Nuclear is low-carbon and conventionally classed as nonrenewable. Explain that electricity is a carrier and that petroleum also supplies carbon-containing feedstocks for materials.
-SOURCES: supplied Lecture 1 PDF p9; https://ourworldindata.org/energy-mix . Alternative-energy images extracted from supplied Lecture 6 PDF p13.
+10–12 min. Pergunte o que acontece antes e depois da viagem. Defina serviço, vida útil e fronteira. O exemplo ECF/TNO de 2011 estima cerca de 5 g CO₂e/km de fabricação e manutenção da bicicleta, dividindo pela vida de oito anos a 2.400 km/ano. Com a hipótese alimentar desse estudo, o total chega a cerca de 21 g/km; infraestrutura e descarte ficam fora. O painel usa outra base, ADEME, sem alimentação adicional: 0,17 g/km para bicicleta. Compare cenários completos, sem somar duas vezes fabricação nem tratar os valores como a mesma fronteira. Segurança, acesso e deficiência também condicionam a mobilidade.
 
-## 6. Transport emissions
+FONTES
+R08 — Blondel Mispelon e Ferguson 2011 sobre ciclismo · ECF/TNO. Páginas impressas 9–11: vida útil, fabricação, manutenção e hipóteses de alimentação. https://ecf.com/media/resources/2016/ECF_CO2_WEB.pdf
+R05 — ADEME e Impact CO₂ base fixada de transporte · Arquivo de dados no commit db 0 e 80 a 605 e 3 b 3 fe 5 c 49 bde 3 bceabced 4 b 179656, comparado às constantes do aplicativo. https://github.com/incubateur-ademe/impactco2/blob/db0e80a605e3b3fe5c49bde3bceabced4b179656/src/data/categories/deplacement.ts
 
-TIMING: 17–19 min. Road dominates the historical transport-mode breakdown. Road passenger (45.1%) plus road freight (29.4%) gives 74.5%. Aviation is 11.6%, shipping 10.6%, and rail plus other transport 3.2%. Rounding gives a 99.9% total. These are shares of transport CO2 in 2018, not shares of all global greenhouse gases. Use this distinction before explaining why smaller sectors can still be technically difficult to decarbonize.
-SOURCES: supplied Lecture 10 PDF p7, embedded OWID/IEA/ICCT chart. https://ourworldindata.org/co2-emissions-from-transport . Aircraft/ship images are from the same supplied course; exact image credits retained in the source index.
+## 4 A expansão da energia fóssil
 
-## 7. Fewer car trips
+12–15 min. Peça que localizem a época dos pais ou avós. A série quantitativa começa em 1800, não há milhares de anos. A unidade é TWh, sem representar emissões diretamente. O gráfico foi refeito em português com o arquivo oficial OWID baixado em 8/11/2026, mantendo o recorte 1800–2023. A base atual cita Energy Institute 2026, Smil 2017 e EIA 2026; metadados e CSV ficam nos materiais. Isso atualiza a versão da série do gráfico anterior, sem misturar seu método com a participação histórica de 2022 no slide seguinte. Os valores anteriores a 1965 são estimativas históricas de Smil. Relacione o estoque geológico de carbono à rápida combustão na industrialização.
 
-TIMING: 19–20 min. Return to the class's commuting alternatives. Reducing the need for car trips combines safe active travel, shared transport, urban form and vehicle technology. Use the street scene as an illustration, not a documentary photograph of a named city. The tram photograph is San Diego public transport in the supplied deck.
-SOURCES: supplied Lecture 10 PDF p8; Project Drawdown transport overview, https://drawdown.org/sectors/transportation .
+FONTES
+R03 — Our World in Data sobre combustíveis fósseis · Gráfico do consumo fóssil mundial, com dados do Energy Institute e de Smil. https://ourworldindata.org/fossil-fuels
+R02 — Our World in Data sobre a matriz energética · Metodologia e revisão de agosto de 2026. O retrato histórico utilizado na aula permanece identificado separadamente. https://ourworldindata.org/energy-mix
 
-## 8. Electric cars: the whole life cycle
+## 5 De onde vem a energia?
 
-TIMING: 20–22 min. ICCT's 2025 EU medium-car assessment reports 235 g CO2e/km for gasoline plus biofuels, 63 for BEVs with the projected 2025–2044 EU electricity mix, and 52 for BEVs using renewable electricity. The comparison includes manufacture, energy supply, maintenance and recycling; it is not a Brazilian commuting-factor table. Ask how a larger vehicle or battery and a different grid would change the outcome. Avoid a universal break-even distance or a claim that renewable electricity is always required for an EV advantage.
-SOURCES: Negri and Bieker, ICCT (2025), executive summary / Figure ES1. https://theicct.org/wp-content/uploads/2025/07/ID-392-%E2%80%93-Life-cycle-GHG_report_final.pdf . Sensitivity framework: https://www.iea.org/data-and-statistics/data-tools/ev-life-cycle-assessment-calculator . Car image: supplied Lecture 10 p8.
+15–17 min. O retrato histórico de oferta total mundial fornecido na Aula 1 p 9 tem carvão 27,6%, petróleo 30,2% e gás 23,1%: soma 80,9%, corrigindo a transcrição anterior de 81,7%. Outras fontes somam 19,1% e não equivalem automaticamente a renováveis ou emissão zero. A versão original exata da base ainda não foi identificada; preserve o ano. Solar, eólica e nuclear são exemplos de outras opções. Nuclear costuma ser classificada como não renovável e tem baixas emissões de ciclo de vida. Eletricidade é um vetor energético e petróleo também fornece carbono para materiais. No Brasil, os 86,8% renováveis de 2025 se referem à oferta interna de eletricidade (BEN 2026), sem representar toda a energia ou um fator de carbono.
 
-## 9. Energy carried on board
+FONTES
+R01 — Material fornecido da disciplina Sustainable Future · PDFs indexados no arquivo da aula. As páginas citadas são páginas do PDF, sem equivaler necessariamente à numeração interna dos slides. 
+R02 — Our World in Data sobre a matriz energética · Metodologia e revisão de agosto de 2026. O retrato histórico utilizado na aula permanece identificado separadamente. https://ourworldindata.org/energy-mix
+R11 — EPE BEN 2026 ano base 2025 · Página impressa 35: 86,8% de renováveis na oferta interna de eletricidade, incluindo importações líquidas. https://www.epe.gov.br/sites-pt/publicacoes-dados-abertos/publicacoes/PublicacoesArquivos/publicacao-975/topico-847/BEN_S%C3%ADntese_2026_PT.pdf
 
-TIMING: 22–24 min. The comparison is stored energy per kg, before propulsion losses. Jet A lower heating value is 43.2 MJ/kg. A representative battery-pack assumption of 250 Wh/kg converts to 0.9 MJ/kg (0.25 kWh/kg times 3.6). This is not a range or replacement-mass calculation: motors and turbines have different efficiencies, batteries retain their mass, and aircraft need reserves and useful payload. Deep-sea shipping also faces energy-storage and volume constraints. Short-range electric applications remain distinct.
-SOURCES: https://docs.cascade.boeing.com/docs/baseCalculations/fuelBurnEnergyEmissions.html (Jet A property); https://eaglepubs.erau.edu/introductiontoaerospaceflightvehicles/chapter/electric-aircraft/ (representative pack-level 0.2–0.25 kWh/kg). Photo from supplied Lecture 10 p7.
+## 6 CO₂ do transporte
 
-## 10. Decades of service
+17–19 min. O denominador é CO₂ do transporte mundial em 2018, não todos os gases de efeito estufa globais. Transporte rodoviário de passageiros 45,1% mais cargas 29,4% soma 74,5%; aviação 11,6%, navegação 10,6%, ferrovias e outros 3,2%. O arredondamento soma 99,9%. Pergunte por que um setor menor ainda requer pesquisa: participação e dificuldade de substituição são perguntas distintas. A fotografia vem da Aula 10 p 15.
 
-TIMING: 24–26 min. These similar numerical ranges describe different metrics. EASA reports average retirement ages of 25–30 years for passenger aircraft; cargo aircraft are longer-lived. IRENA describes ship technical lifetimes as usually 25–30 years. Neither range is a precise forecast of the years needed to replace an entire fleet. Existing assets and infrastructure motivate compatible fuels alongside efficiency, demand measures and new propulsion. Rail can use overhead electricity and should not be treated as equivalent to long-haul aircraft.
-SOURCES: https://www.easa.europa.eu/en/light/topics/sustainability-end-life-phase-aircraft ; https://www.irena.org/-/media/Files/IRENA/Agency/Publication/2021/Oct/IRENA_Decarbonising_Shipping_2021.pdf . Traffic-map images from supplied Lecture 10 pp5–6, snapshots dated 27 June 2025.
+FONTES
+R04 — Our World in Data sobre emissões do transporte · Divisão por modo em 2018, com dados IEA e ICCT. https://ourworldindata.org/co2-emissions-from-transport
+R01 — Material fornecido da disciplina Sustainable Future · PDFs indexados no arquivo da aula. As páginas citadas são páginas do PDF, sem equivaler necessariamente à numeração interna dos slides. 
 
-## 11. Sustainable aviation fuel
+## 7 Menos viagens de carro
 
-TIMING: 26–28 min. SAF must satisfy aviation fuel performance requirements and relevant sustainability criteria. Approved conversion routes and blend limits vary. Combustion still releases CO2; the potential reduction is assessed over feedstock production, conversion, distribution and flight, including relevant land-use effects. Non-CO2 aviation effects also remain. The photograph shows an engine-test context with a 100% SAF label, not the normal approved blend for every aircraft.
-SOURCES: https://www.icao.int/SAF/saf-conversion-processes ; https://www.icao.int/CORSIA/fuels-lifecycle . Engine photo extracted from supplied Lecture 10 p15, original photo link https://robbreport.com/wp-content/uploads/2021/10/RollsRoyce_SAF1.jpg?w=1000 .
+19–20 min. Volte às alternativas da turma. Caminhada e bicicleta seguras, urbanismo e transporte coletivo acessível mudam a demanda por viagens individuais, além de mudar o motor. A cena de rua é ilustração do material fornecido, sem documentar uma cidade específica. O bonde é de San Diego. Distância, segurança, acesso e ocupação precisam acompanhar a comparação.
 
-## 12. Routes to aviation fuel
+FONTES
+R01 — Material fornecido da disciplina Sustainable Future · PDFs indexados no arquivo da aula. As páginas citadas são páginas do PDF, sem equivaler necessariamente à numeração interna dos slides. 
 
-TIMING: 28–30 min. Ethanol is upgraded through alcohol-to-jet. LanzaJet reported on-spec jet-fuel production and full plant operation at Freedom Pines on 13 November 2025; that milestone is not evidence of continuous production at nameplate capacity. A 2025 PNNL experimental study used wastewater-grown algae, HTL to biocrude, then hydrotreating and distillation toward aviation fuel. Keep research fuel characterization distinct from fuel qualification and commercial supply. The algae image is an illustrative Botryococcus micrograph from the source course, not a photograph of the PNNL experimental strain.
-SOURCES: https://www.lanzajet.com/news-insights/lanzajet-makes-history ; https://www.pnnl.gov/publications/hydrothermal-liquefaction-wastewater-grown-algae-produce-sustainable-aviation-fuel . Crop and micrograph: supplied Lecture 10 p15; micrograph original https://www.nature.com/articles/s41598-019-53619-y .
+## 8 Carros elétricos no ciclo de vida
 
-## 13. Algae
+20–23 min. Compare veículos da mesma categoria. ICCT Brasil 2023: compacto flex com mistura média de combustíveis 155 frente a elétrico 55; médio 155 frente a 52; SUV compacto 181 frente a 59 g CO₂e/veículo-km. Reduções modeladas de cerca de 65–67%, incluindo fabricação, energia, manutenção e reciclagem com hipóteses do estudo, vida de 22 anos e 288.000 km. As misturas de combustíveis e eletricidade são projetadas para 2023–2044; não são medições de todos os carros atuais. Porte maior pode elevar demanda de materiais e energia.
 
-TIMING: 30–32 min. The collage shows diversity, not one interchangeable organism. Distinguish microalgae, seaweeds and cyanobacteria, then focus the subsequent research on C. pacifica. Cultivation needs light, carbon, water and nutrients. Target-component percentage, biomass growth, recovered product and resource consumption are separate measurements. Avoid presenting theoretical algae oil-yield tables as demonstrated industrial performance.
-VISUAL SOURCE: supplied Lecture 9 PDF p13, collage and original credits retained in the source index.
+Referência alternativa separada: ICCT UE 2025 para médios, 235 g/km gasolina mais biocombustíveis, 63 elétrico com rede projetada, 52 com eletricidade renovável. Esses são cenários europeus, não fatores da enquete brasileira. Não dê distância universal de compensação da bateria nem afirme que o elétrico sempre vence qualquer ônibus ou bicicleta.
 
-## 14. Algae-to-fuel conversion
+FONTES
+R10 — Mera e colaboradores ICCT 2023 carros no Brasil · Figuras 5–7, páginas impressas 15–17. Vida útil de 22 anos e 288.000 km; energia projetada para 2023–2044. https://theicct.org/wp-content/uploads/2023/10/Brazil-LDV-LCA-report-A4-v7.pdf
+R09 — ICCT 2025 ciclo de vida dos carros na União Europeia · Comparação de carros médios vendidos em 2025, com eletricidade ao longo de 2025–2044. https://theicct.org/wp-content/uploads/2025/07/ID-392-%E2%80%93-Life-cycle-GHG_report_final.pdf
 
-TIMING: 32–35 min. Use this intentionally simplified, editable route map. Algal oil can undergo transesterification to fatty-acid alkyl esters (biodiesel). Hydrocarbon-fuel routes instead require hydrotreating or other upgrading. Whole wet biomass can undergo hydrothermal liquefaction to biocrude followed by upgrading. A drawn endpoint labelled jet hydrocarbons indicates a route target, not proof of a qualified SAF for every feedstock/process. Explain recovery and conversion losses before the game.
-SOURCE: simplified from the supplied Lecture 10 PDF p18 and Zhou and Hu (2020), https://www.mdpi.com/2073-4344/10/2/145 . SAF qualifications: https://www.icao.int/SAF/saf-conversion-processes .
+## 9 Quanto pesa a energia?
 
-## 15. Biological carbon, useful materials
+23–26 min. Converta com a turma: 250 Wh/kg × 3,6 kJ/Wh = 900 kJ/kg = 0,9 MJ/kg. Jet A tem poder calorífico inferior de 43,2 MJ/kg: razão armazenada de 48. A bateria é uma hipótese de conjunto a 250 Wh/kg, não um recorde de célula. Isso não significa 48 vezes a autonomia. Como sensibilidade hipotética, 35% de conversão útil para combustível e 90% para elétrico dão 15,12 contra 0,81 MJ/kg, razão 18,7; não representam uma aeronave específica. Reservas, refrigeração, aerodinâmica, massa do conjunto e queima de combustível entram no projeto. Aviões curtos e algumas rotas marítimas podem usar baterias; longo alcance impõe outras restrições.
 
-TIMING: 35–38 min. The photographs illustrate material applications. Distinguish whole biomass incorporated in a formulation, recovered starch formulated with additives, and algal carbon converted to chemical precursors such as polyols for polyurethane. These are distinct routes with different performance requirements. Biobased origin does not establish biodegradability, compostability or a lower overall impact. Use the processing/resource trade-off to introduce the research.
-SOURCES: supplied Lecture 13 PDF p21, DOE/UCSD surfboard image and UCSD algae-based flip-flop image. Original links https://www.energy.gov/sites/default/files/styles/full_article_width/public/2017/07/f35/algae%20surboard%20with%20logo%20%28002%29.png?itok=Cx2zu7u9 and https://today.ucsd.edu/news_uploads/algae-based-flip-flops.jpg . Terminology: https://environment.ec.europa.eu/topics/plastics/bio-based-biodegradable-and-compostable-plastics_en . Whole/starch routes also prepare the user-provided Algae Farm simulation.
+FONTES
+R13 — Boeing CASCADE parâmetros de energia · Tabela 58: poder calorífico inferior do Jet A de 43,2 MJ/kg e conversão entre kWh e MJ. https://docs.cascade.boeing.com/docs/costs/index.html
+R14 — Embry Riddle sobre aeronaves elétricas · Energia específica de conjuntos de baterias próxima de 0,20–0,25 kWh/kg; distinguir conjunto e célula. https://eaglepubs.erau.edu/introductiontoaerospaceflightvehicles/chapter/electric-aircraft/
 
-## 16. Research: Chlamydomonas pacifica
+## 10 Décadas de operação
 
-TIMING: 38–40 min. Introduce the published C. pacifica case as the research anchor available in the provided resources. The graphic summarizes laboratory evolution, targeted engineering and pilot cultivation with biodiesel/polyurethane endpoints. The organisms and results retain the authors' attribution.
-DISCUSSION: Which part of the chain is most likely to prevent a useful product at scale?
-SOURCE: Gupta, Molino et al., ACS ES&T Engineering 5 (2025), 36–49, DOI 10.1021/acsestengg.4c00443, graphical abstract. https://pmc.ncbi.nlm.nih.gov/articles/PMC11730947/ . Figure reproduced with attribution; published under CC BY-NC-ND 4.0.
+26–28 min. EASA informa aposentadoria típica de aeronaves de passageiros aos 25–30 anos; aeronaves cargueiras podem operar mais. IRENA descreve vida técnica usual de navios de 25–30 anos. São métricas diferentes, sem fixar um único prazo para renovar toda a frota. Reformas, utilização, novos projetos e disponibilidade de combustível alteram a transição. Os mapas são instantâneos de tráfego do curso, não inventários de emissões. Ferrovias com cabos recebem energia externamente e não têm a mesma restrição de carregar toda a energia a bordo.
 
-## 17. Selecting for resilience
+FONTES
+R15 — EASA sustentabilidade no fim da vida das aeronaves · Aposentadoria típica de aeronaves de passageiros após 25–30 anos; cargas frequentemente 30–40. https://www.easa.europa.eu/en/light/topics/sustainability-end-life-phase-aircraft
+R16 — IRENA 2021 descarbonização da navegação até 2050 · Página impressa 25: vida técnica usual de navios de 25–30 anos. https://www.irena.org/-/media/Files/IRENA/Agency/Publication/2021/Oct/IRENA_Decarbonising_Shipping_2021.pdf
+R01 — Material fornecido da disciplina Sustainable Future · PDFs indexados no arquivo da aula. As páginas citadas são páginas do PDF, sem equivaler necessariamente à numeração interna dos slides. 
 
-TIMING: 40–43 min. Figure 1 shows mutagenesis, breeding and selection for high-light tolerance, followed by phenotype tests. Explain selection versus targeted engineering and ask students to interpret the plate comparison before showing the growth panel. The pH comparison did not demonstrate a definitive improvement from the evolution step.
-SOURCE: Gupta, Molino et al. (2025), Figure 1. https://pmc.ncbi.nlm.nih.gov/articles/PMC11730947/ . Original figure retained with panel labels and scale information. CC BY-NC-ND 4.0. Panel a credited by the authors to BioRender.
+## 11 Combustível sustentável de aviação
 
-## 18. More lipid and starch
+28–30 min. SAF é a sigla usada internacionalmente para combustível sustentável de aviação. Separe qualificação de desempenho e segurança da avaliação de sustentabilidade. A combustão continua emitindo CO₂; a redução potencial depende do ciclo de vida e do comparador fóssil. Não use redução universal de 80% nem aprovação universal de combustível 100% em toda a frota. Limites de mistura dependem da rota. A página ICAO consultada tem narrativa datada de julho de 2023; sua contagem de rotas não é um total atualizado de 2026.
 
-TIMING: 43–47 min. Replotted reported composition: lipids 28.99±0.78 to 37.00±1.93 g/100g dried biomass for evolved reference versus evolved Dof; starch 36.08±0.80 to 45.83±2.68 for reference versus evolved PGM1. Reported p values are 0.032 and 0.039. Labels preserve the published ± quantities without assigning an unsupported uncertainty definition. Different engineered strains target the two components. These are content measurements, not increases in fuel output per day. Pilot cultivation used 80 L greenhouse raceways over three rounds; the lipid extraction method reports two technical replicates.
-DISCUSSION: Does a higher content guarantee more recovered product? What else should we measure?
-SOURCE: Gupta, Molino et al. (2025), Figure 4 and associated methods. https://pmc.ncbi.nlm.nih.gov/articles/PMC11730947/ .
+FONTES
+R17 — ICAO processos de conversão de SAF · Tabela de rotas aprovadas; o texto de apresentação está explicitamente datado de julho de 2023. https://www.icao.int/SAF/saf-conversion-processes
+R18 — ICAO CORSIA emissões de ciclo de vida dos combustíveis · Método que considera emissões do processo e efeitos de uso da terra. https://www.icao.int/CORSIA/fuels-lifecycle
 
-## 19. Fuels and materials
+## 12 Rotas para o combustível de aviação
 
-TIMING: 47–50 min. Published product photographs show biodiesel samples and the A2141 polyurethane material. Ask what evidence verifies product identity, required properties and resource demands. The paper reports a biodiesel/TPU demonstration, not certified SAF production or a full comparative LCA.
-TRANSITION: Students will now balance cultivation, energy, processing and recovery in the game.
-SOURCE: Gupta, Molino et al. (2025), product photographs reproduced in supplied Lecture 18 PDF p15; https://pmc.ncbi.nlm.nih.gov/articles/PMC11730947/ . Original figure/product labels preserved.
+30–33 min. ATJ converte álcool em hidrocarbonetos por etapas que incluem desidratação, oligomerização e hidrogenação/refino. LanzaJet informou querosene de etanol dentro da especificação em 13/11/2025, marco declarado pela empresa, sem equivaler a auditoria de volume anual. PNNL 2025 combina experimento de liquefação hidrotérmica de algas de águas residuárias e análise econômica; não demonstra fornecimento comercial certificado de SAF algal. Seu preço mínimo modelado é US$9,04 por galão equivalente de gasolina, sensibilidade 6,51–13,07; a unidade é equivalência energética. A imagem de satélite e a imagem de milho são ilustrativas, sem identificar a matéria-prima exata desses estudos ou C. pacifica.
 
-## 20. Algae Farm
+FONTES
+R19 — LanzaJet anúncio de Freedom Pines em 13 de novembro de 2025 · Anúncio da empresa de combustível de etanol dentro da especificação e operação completa da planta. https://www.lanzajet.com/news-insights/lanzajet-makes-history
+R20 — Kumar e colaboradores 2025 HTL de algas de águas residuárias · Energy Conversion and Management X 27, 101096. DOI 10.1016/j.ecmx.2025.101096. https://www.pnnl.gov/publications/hydrothermal-liquefaction-wastewater-grown-algae-produce-sustainable-aviation-fuel
+R21 — Zhou e Hu 2020 conversão termoquímica e refino de óleo algal · Catalysts 10(2), 145. DOI 10.3390/catal10020145. Fonte conceitual do esquema de rotas, sem demonstrar o rendimento desta cepa. https://www.mdpi.com/2073-4344/10/2/145
+R01 — Material fornecido da disciplina Sustainable Future · PDFs indexados no arquivo da aula. As páginas citadas são páginas do PDF, sem equivaler necessariamente à numeração interna dos slides. 
 
-TIMING: 50–57 min. Give one minute of instructions, then six minutes playing in pairs. The QR and Open game link use https://molino-algae.github.io/justlab-site/games/algae-farm/?minutos=6&modo=direto&cenario=fixo . Assign half the pairs biodiesel and half materials. Complete one batch and identify a resource trade-off. The link selects a six-minute round, direct decisions and a fixed scenario. A new link does not overwrite a saved batch; compare matching initial stocks, species and upgrades. The current campaign carries resources between batches and advanced cultures require progression. Do not require C. pacifica unlocks during this round.
-SOURCE: user-provided Algae Farm, UI and configuration inspected 2 November 2026. Screenshot shows the farm map before a batch begins. Its parameters are fictional teaching rules, not kg, kWh, an LCA or fuel certification.
-HTML VERSION: the game is embedded directly in slide 20 and also available through the QR for students. Load it when the activity begins. Use the slide navigation controls below the frame to return to the debrief.
+## 13 Algas: diversidade e possibilidades
 
-## 21. What made a better route?
+33–34 min. A colagem da Aula 9 p 13 ilustra organismos de grupos diferentes, sem representar uma única espécie. A pesquisa da aula trabalha com a microalga verde Chlamydomonas pacifica. A assimilação fotossintética de carbono não estabelece sequestro permanente nem benefício de ciclo de vida por si só. Cultivo, nutrientes, temperatura, circulação, colheita e conversão precisam de recursos.
 
-TIMING: 57–60 min. Compare two pairs on the same product contract. Ask which decision increased recovered product, which extra processing step was worthwhile and what happened to water/energy use. Connect the answer to the research and to the initial footprint boundary. Plates and biodiesel tokens are different teaching units; do not rank contracts by their raw totals. End by asking what measurements would establish a lower environmental burden.
-SOURCE: user-provided Algae Farm and the class's results. The closing photograph is the bioprocess equipment image from supplied Lecture 13 PDF p20, accompanying Lips (2021), https://ietresearch.onlinelibrary.wiley.com/doi/10.1049/enb2.12017 .
+FONTES
+R01 — Material fornecido da disciplina Sustainable Future · PDFs indexados no arquivo da aula. As páginas citadas são páginas do PDF, sem equivaler necessariamente à numeração interna dos slides. 
+R24 — Dutra Molino e colaboradores 2025 descrição de C pacifica · Algal Research 88, 104034. DOI 10.1016/j.algal.2025.104034. Caracterização da espécie e tolerância. https://doi.org/10.1016/j.algal.2025.104034
+R18 — ICAO CORSIA emissões de ciclo de vida dos combustíveis · Método que considera emissões do processo e efeitos de uso da terra. https://www.icao.int/CORSIA/fuels-lifecycle
+
+## 14 Da biomassa ao combustível
+
+34–36 min. FAME são ésteres metílicos de ácidos graxos, uma classe de biodiesel, distintos do querosene de hidrocarbonetos. A síntese demonstrada no estudo ACS inclui saponificação seguida de esterificação ácida com metanol, não etanol/FAEE. Hidroprocessamento remove oxigênio e utiliza hidrogênio. Amido precisa ser hidrolisado e convertido a etanol antes de ATJ. HTL forma bio-óleo intermediário úmido que requer refino; não produz automaticamente querosene acabado e aprovado. Cada seta exige rendimento, energia e recuperação.
+
+FONTES
+R23 — Gupta e Dutra Molino e colaboradores 2025 engenharia de C pacifica para lipídios e amido · ACS ES&T Engineering 5, 36–49; online em 25 de novembro de 2024. Figuras 1 e 4–6. DOI 10.1021/acsestengg.4c00443. https://doi.org/10.1021/acsestengg.4c00443
+R21 — Zhou e Hu 2020 conversão termoquímica e refino de óleo algal · Catalysts 10(2), 145. DOI 10.3390/catal10020145. Fonte conceitual do esquema de rotas, sem demonstrar o rendimento desta cepa. https://www.mdpi.com/2073-4344/10/2/145
+R17 — ICAO processos de conversão de SAF · Tabela de rotas aprovadas; o texto de apresentação está explicitamente datado de julho de 2023. https://www.icao.int/SAF/saf-conversion-processes
+R20 — Kumar e colaboradores 2025 HTL de algas de águas residuárias · Energy Conversion and Management X 27, 101096. DOI 10.1016/j.ecmx.2025.101096. https://www.pnnl.gov/publications/hydrothermal-liquefaction-wastewater-grown-algae-produce-sustainable-aviation-fuel
+
+## 15 Materiais de carbono biológico
+
+36–38 min. Diferencie base biológica (origem), biodegradável (decomposição em condições definidas) e compostável (critérios de compostagem). A fotografia de um produto não estabelece sua fração biológica nem biodegradação completa. Gunawan 2020 estudou uma formulação de espuma de poliéster-poliuretano durante 12 semanas: perda de massa de 30% em composto e 71% no solo, não mineralização completa de todo carbono nem comportamento de todos os polímeros. Uma rota pode fornecer precursores para polióis e materiais; o processo completo exige desempenho e avaliação de destino final. História para discussão: uma alga chamada pacifica foi isolada de solo em San Diego, não do mar.
+
+FONTES
+R22 — Comissão Europeia plásticos de base biológica biodegradáveis e compostáveis · Definições separam origem da matéria-prima, biodegradação e condições de compostagem. https://environment.ec.europa.eu/topics/plastics/bio-based-biodegradable-and-compostable-plastics_en
+R29 — Gunawan e colaboradores 2020 biodegradação de espumas renováveis de PU · Bioresource Technology Reports 11, 100513. DOI 10.1016/j.biteb.2020.100513. Ensaios específicos em solo e composto. https://doi.org/10.1016/j.biteb.2020.100513
+R23 — Gupta e Dutra Molino e colaboradores 2025 engenharia de C pacifica para lipídios e amido · ACS ES&T Engineering 5, 36–49; online em 25 de novembro de 2024. Figuras 1 e 4–6. DOI 10.1021/acsestengg.4c00443. https://doi.org/10.1021/acsestengg.4c00443
+R24 — Dutra Molino e colaboradores 2025 descrição de C pacifica · Algal Research 88, 104034. DOI 10.1016/j.algal.2025.104034. Caracterização da espécie e tolerância. https://doi.org/10.1016/j.algal.2025.104034
+R01 — Material fornecido da disciplina Sustainable Future · PDFs indexados no arquivo da aula. As páginas citadas são páginas do PDF, sem equivaler necessariamente à numeração interna dos slides. 
+
+## 16 Do organismo ao processo
+
+38–40 min. Apresente a lógica da pesquisa: selecionar hospedeiro tolerante, alterar composição e demonstrar conversão em produto. C. pacifica veio de solo de San Diego. O resumo taxonômico relata tolerância pH 6–11,5, até 42° C e até 2% de NaCl, em ensaios específicos, sem prometer produtividade ótima simultânea nos extremos.
+
+A fotografia original dos slides adicionais 6–7 é do trabalho separado de enzima, pré-publicação R27, cujo resumo descreve três tanques de 80 L. Preserve a identidade do experimento. Tradução dos rótulos originais: Pond = tanque; Temp probe = sonda de temperatura; pH probe = sonda de pH; Light Sensor = sensor de luz. As quatro máximas de 16 g/m²/dia,1672µmol fótons/m²/s,40,5° C,pH 10,85 não foram verificadas no texto/dados integrais; não as apresente como confirmadas nem combine com a composição do artigo ACS.
+
+O estudo ACS é de engenharia para lipídios e amido, com demonstração de biodiesel e TPU, sem SAF certificado ou ACV comercial completa. Preservar coautoria principal compartilhada conforme o artigo.
+
+FONTES
+R23 — Gupta e Dutra Molino e colaboradores 2025 engenharia de C pacifica para lipídios e amido · ACS ES&T Engineering 5, 36–49; online em 25 de novembro de 2024. Figuras 1 e 4–6. DOI 10.1021/acsestengg.4c00443. https://doi.org/10.1021/acsestengg.4c00443
+R24 — Dutra Molino e colaboradores 2025 descrição de C pacifica · Algal Research 88, 104034. DOI 10.1016/j.algal.2025.104034. Caracterização da espécie e tolerância. https://doi.org/10.1016/j.algal.2025.104034
+R27 — Diaz e Dutra Molino e colaboradores 2025 PHL7 em C pacifica · bioRxiv v 1 de 15 de maio de 2025. DOI 10.1101/2025.05.14.654053. Resumo e metadados verificados; as máximas numéricas não foram recomputadas. https://doi.org/10.1101/2025.05.14.654053
+R28 — Dados suplementares depositados pelos autores em 2025 · DOI 10.5281/zenodo.15411934. Registro e metadados confirmados; download do arquivo retornou acesso negado e os dados não foram recomputados. https://zenodo.org/records/15411934
+
+## 17 Selecionar e testar tolerância
+
+40–43 min. O artigo ACS apresenta mutagênese, cruzamento e seleção para alta luminosidade, seguidos por testes de fenótipo. Esta é uma síntese didática própria, não tradução da figura científica protegida. Diferencie seleção de modificação direcionada e desempenho celular de desempenho do processo. Houve ganho de tolerância à alta luz; o contraste de pH não demonstrou melhora definitiva por evolução.
+
+Se houver tempo, conecte ao estudo posterior de fatores de transcrição: 162 proteínas previstas computacionalmente não são todas validadas. Marcação com vermelho do Nilo na faixa PE-A com três réplicas biológicas e limiar 7,7 ×10⁴RFU descreve fluorescência. Lipidômica semiquantitativa mede abundância relativa de TAG152±21 frente a 369±70 por mg, cerca de 2,43 vezes, não volume de combustível. Estudos e unidades precisam permanecer separados.
+
+FONTES
+R23 — Gupta e Dutra Molino e colaboradores 2025 engenharia de C pacifica para lipídios e amido · ACS ES&T Engineering 5, 36–49; online em 25 de novembro de 2024. Figuras 1 e 4–6. DOI 10.1021/acsestengg.4c00443. https://doi.org/10.1021/acsestengg.4c00443
+R25 — Gupta Oliver Dutra Molino e colaboradores 2025 fatores de transcrição endógenos · Algal Research 90, 104192. DOI 10.1016/j.algal.2025.104192. Figuras 5–6, métodos e lipidômica. https://doi.org/10.1016/j.algal.2025.104192
+
+## 18 Mais lipídios e amido
+
+43–47 min. A unidade é g/100 g de biomassa seca. Lipídios 28,99±0,78→37,00±1,93 na cepa evoluída frente à evoluídaDof; amido 36,08±0,80→45,83±2,68 na referência frente à evoluídaPGM1. Os p relatados são 0,032 e 0,039. Este gráfico didático mostra valores centrais sem barras; consulte a figura original para definições de erro e amostragem. Diferentes cepas elevam cada componente, sem um único genótipo dobrado.
+
+Calcule primeiro diferença 8,01 pontos percentuais, depois ganho relativo 27,63%; para amido 9,75 pontos e 27,02%. Teor não é produtividade de combustível. Produtividades máximas de biomassa no artigo 3,90/3,38/2,83 g/m²/dia para evoluída/Dof/PGM1. Não substituir pelo máximo não verificado 16 de outro trabalho. O estudo usa raceways de 80 L em estufa e três rodadas; extração lipídica descreve duas réplicas técnicas. Pergunte qual medição de recuperação e conversão falta para estimar produto por área e tempo.
+
+FONTES
+R23 — Gupta e Dutra Molino e colaboradores 2025 engenharia de C pacifica para lipídios e amido · ACS ES&T Engineering 5, 36–49; online em 25 de novembro de 2024. Figuras 1 e 4–6. DOI 10.1021/acsestengg.4c00443. https://doi.org/10.1021/acsestengg.4c00443
+
+## 19 Produtos demonstrados
+
+47–50 min. Fotografias de produtos demonstrados no estudo ACS, reproduzidas na Aula 18 p 15. Identificadores Evo e Dof são nomes das amostras originais; Evo significa evoluída, −N indica condição sem nitrogênio. A legenda original Algae-based TPU identifica poliuretano termoplástico de origem algal, A2141. As fotografias não medem, sozinhas, rendimento industrial, fração biológica ou pegada. GC-MS da Fig 5 c tem n=1; preserve a limitação. O tecido revestido mostra aplicação do TPU, sem demonstrar SAF.
+
+Conecte ao balanço do guia: produtividade de biomassa × fração × recuperação × rendimento. Exemplo inventado 12 ×0,35 ×0,75 ×0,90=2,835 g de produto/m²/dia. Maior composição pode acompanhar menor crescimento. Agora os alunos irão explorar esse compromisso no jogo.
+
+FONTES
+R23 — Gupta e Dutra Molino e colaboradores 2025 engenharia de C pacifica para lipídios e amido · ACS ES&T Engineering 5, 36–49; online em 25 de novembro de 2024. Figuras 1 e 4–6. DOI 10.1021/acsestengg.4c00443. https://doi.org/10.1021/acsestengg.4c00443
+R01 — Material fornecido da disciplina Sustainable Future · PDFs indexados no arquivo da aula. As páginas citadas são páginas do PDF, sem equivaler necessariamente à numeração interna dos slides. 
+
+## 20 Algae Farm
+
+50–57 min. Reserve um minuto de instrução e seis minutos em duplas. O link seleciona 6 minutos, decisões diretas e cenário fixo. Um link novo não apaga lote salvo; confirme estoques, espécie e melhorias equivalentes. Metade das duplas pode escolher biodiesel, metade materiais. Complete um lote e registre uma decisão, um resultado e um recurso limitante. Não exija desbloquear C. pacifica. O jogo usa regras fictícias de ensino, não kg, kWh, coeficientes validados, ACV ou certificação de combustível. O QR permite jogar no celular. Use as setas abaixo da moldura para retomar a aula.
+
+FONTES
+R37 — Algae Farm jogo didático atual · As regras de recursos e pontuação são hipóteses de ensino, sem equivaler a coeficientes validados de processo ou ACV. https://molino-algae.github.io/justlab-site/games/algae-farm/?minutos=6&modo=direto&cenario=fixo
+
+## 21 O que tornou a rota melhor?
+
+57–60 min. Compare duplas no mesmo contrato e condições iniciais. Qual decisão aumentou produto útil? Qual etapa adicional compensou? O que aconteceu com água e energia? Fichas de materiais e biodiesel são unidades didáticas distintas, sem ordenar contratos por totais brutos. Peça uma variável e uma medição que faltam para demonstrar menor impacto ambiental. Relacione a resposta ao ciclo de vida do trajeto e ao bioprocesso. A fotografia é da Aula 13 p 20, que cita Lips 2021.
+
+Fechamento sugerido: algas fornecem moléculas de carbono e enzimas; a engenharia precisa transformar isso em produção útil, com recursos e impactos medidos. Os materiais em português estão no botão Materiais; versões anteriores em inglês ficam no arquivo.
+
+FONTES
+R01 — Material fornecido da disciplina Sustainable Future · PDFs indexados no arquivo da aula. As páginas citadas são páginas do PDF, sem equivaler necessariamente à numeração interna dos slides. 
+R23 — Gupta e Dutra Molino e colaboradores 2025 engenharia de C pacifica para lipídios e amido · ACS ES&T Engineering 5, 36–49; online em 25 de novembro de 2024. Figuras 1 e 4–6. DOI 10.1021/acsestengg.4c00443. https://doi.org/10.1021/acsestengg.4c00443
+R37 — Algae Farm jogo didático atual · As regras de recursos e pontuação são hipóteses de ensino, sem equivaler a coeficientes validados de processo ou ACV. https://molino-algae.github.io/justlab-site/games/algae-farm/?minutos=6&modo=direto&cenario=fixo
+
+## Imagens científicas
+
+Fotografia de tanques: Research_exemple.pptx, slides 6–7, associada à pré-publicação R27. Fotografias de produtos: Aula 18 p 15 / estudo ACS R23. Identificadores das amostras e legendas originais preservados; explicações em português nas notas. As figuras científicasCCBY-NC-NDnão foram traduzidas dentro da imagem. Esquemas didáticos novos não são figuras experimentais originais.

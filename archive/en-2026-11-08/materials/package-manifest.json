@@ -1,0 +1,63 @@
+{
+  "stage": 2,
+  "language": "en",
+  "status": "Review edition before Stage 3 Portuguese adaptation",
+  "date": "2026-11-08",
+  "student_guide_pages": 25,
+  "presenter_notes_pages": 11,
+  "anki_cards": 36,
+  "practice_problems": 8,
+  "files": [
+    {
+      "file": "Algae_Presenter_Notes_EN.docx",
+      "bytes": 7111800,
+      "sha256": "d32a561a7684790c8ce977c02dd700c3843dfbe4613e1471a178f50fa6682a83"
+    },
+    {
+      "file": "Algae_Presenter_Notes_EN.pdf",
+      "bytes": 214742,
+      "sha256": "dc1aef62059c4a31626458e79c26d49e2606fce24f2672bcb2299ff5290b6bfe"
+    },
+    {
+      "file": "Algae_Revision_EN.apkg",
+      "bytes": 78042,
+      "sha256": "8ab77d87af3e728cb8c13fd9bfbd0d3f405eeec2eb00db86aed317c7faf7c859"
+    },
+    {
+      "file": "Algae_Revision_EN.tsv",
+      "bytes": 16312,
+      "sha256": "5288bf6978fa224531fcabed20985f1adf372b0b122ed52871cf50af9ece9abe"
+    },
+    {
+      "file": "Algae_Student_Guide_EN.docx",
+      "bytes": 9165743,
+      "sha256": "fdc7831a6440a570de2fc53ffc37172b21db8f26ca4b607f5276658af56afbac"
+    },
+    {
+      "file": "Algae_Student_Guide_EN.pdf",
+      "bytes": 1430354,
+      "sha256": "8b69d7dfbf0b0905bbd042d3c41a96a83b132f43869d4046dc59ddd036bcad02"
+    },
+    {
+      "file": "figure-provenance.json",
+      "bytes": 2852,
+      "sha256": "ab0047c3830420e002469e67d26d71c767f4593aa5c3f98eb7d6b45684b908cb"
+    },
+    {
+      "file": "reference-ledger.json",
+      "bytes": 14580,
+      "sha256": "56914e94abc197035ce0f52967e4cd629814c92155377dd502d37251d70f2458"
+    },
+    {
+      "file": "START_HERE.txt",
+      "bytes": 1427,
+      "sha256": "50e5502dbab77c802bbfa5559ade3dc66a433afd20cf7bf76ae198f3e2186c4b"
+    },
+    {
+      "file": "worked-calculations.json",
+      "bytes": 480,
+      "sha256": "cd8189df6d28c19f7032119c21c5a39572f695682c75efc83f793ad8fee5ef10"
+    }
+  ],
+  "checks": "All pages rendered and visually reviewed; formulas checked; PDF links present; Anki SQLite integrity and 36-card counts verified. Actual Anki UI import not performed."
+}

@@ -1,0 +1,67 @@
+[
+  {
+    "file": "carbon_routes.png",
+    "source": "Conceptual diagram; R18 R22",
+    "scope": "Carbon origin and return depend on product use and end of life; no numerical carbon neutrality claim."
+  },
+  {
+    "file": "lifecycle.png",
+    "source": "Original teaching diagram; R08 R09 R10",
+    "scope": "A selected life-cycle boundary; infrastructure may require a separate module."
+  },
+  {
+    "file": "commute_flight.png",
+    "source": "R05 R32 and worked example",
+    "scope": "Illustrative ADEME France factors; flight includes contrail effects; not a literal 112-km flight."
+  },
+  {
+    "file": "world_energy.png",
+    "source": "Supplied Lecture 1 PDF p9; R01",
+    "scope": "Teaching redraw of historical supplied values; exact upstream dataset vintage unpinned."
+  },
+  {
+    "file": "brazil_ev.png",
+    "source": "R10, Figs5\u20137",
+    "scope": "Lifetime model, 22 years and 288,000 km; fuel and grid mixes projected over 2023\u20132044."
+  },
+  {
+    "file": "specific_energy.png",
+    "source": "R13 R14",
+    "scope": "Illustrative battery pack assumption; not a range comparison or aircraft mass design."
+  },
+  {
+    "file": "fuel_routes.png",
+    "source": "Original process overview; R17 R20 R21 R23",
+    "scope": "Finished aviation fuel must meet the pathway-specific qualification and sustainability requirements. HTL row is a research pathway, not certification evidence."
+  },
+  {
+    "file": "algae_process.png",
+    "source": "Original engineering framework; R20 R23 R24",
+    "scope": "Conceptual system boundary, no claim of zero inputs or constant process yield."
+  },
+  {
+    "file": "research_content.png",
+    "source": "Reported central values from R23 Fig4e\u2013f",
+    "scope": "Independent teaching chart; separate engineered strains. Error bars omitted here; original definitions and statistics remain in the paper."
+  },
+  {
+    "file": "tf_workflow.png",
+    "source": "Teaching schematic; R25",
+    "scope": "Generic experimental logic; arrows do not quantify gene regulation or metabolic flux."
+  },
+  {
+    "file": "enzyme_process.png",
+    "source": "Original teaching diagram of the reported R26 PET experiment",
+    "scope": "Impranil/PUR tests and PET tests are distinct; no claim of complete ambient-temperature PET mineralization."
+  },
+  {
+    "file": "productivity_tradeoff.png",
+    "source": "Illustrative mass balance only",
+    "scope": "Assumes 80% recovery and 90% conversion in all three cases. These are invented teaching inputs, not experimental performance."
+  },
+  {
+    "file": "raceways.png",
+    "source": "User-supplied Research_exemple.pptx slides6\u20137; associated preprint R27",
+    "scope": "Unchanged photograph illustrates pond instrumentation; does not validate four unverified numerical maxima."
+  }
+]

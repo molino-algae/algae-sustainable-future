@@ -1,0 +1,21 @@
+{
+  "downloaded": "2026-11-08",
+  "csv": "fossil-data.csv",
+  "metadata": "fossil-metadata.json",
+  "url": "https://ourworldindata.org/grapher/energy-mix?metric=by_source&source=fossil_fuels",
+  "filter": "World;1800–2023",
+  "series": [
+    "Coal",
+    "Oil",
+    "Gas"
+  ],
+  "last_point": {
+    "Entity": "World",
+    "Code": "OWID_WRL",
+    "Year": "2023",
+    "Gas": "40152.266",
+    "Oil": "54656.465",
+    "Coal": "45500.543"
+  },
+  "descricao": "Gráfico refeito com rótulos em português; série oficial atual recortada até2023. A participação de2022 do slide5 é um retrato histórico separado."
+}

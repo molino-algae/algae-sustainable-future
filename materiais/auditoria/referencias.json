@@ -1,0 +1,344 @@
+{
+  "R01": {
+    "id": "R01",
+    "title": "Material fornecido da disciplina Sustainable Future",
+    "url": "",
+    "locator": "PDFs indexados no arquivo da aula. As páginas citadas são páginas do PDF, sem equivaler necessariamente à numeração interna dos slides.",
+    "evidence_type": "Material didático fornecido pelo usuário",
+    "checked": "2026-11-08",
+    "original_title": "Supplied Sustainable Future course: source index"
+  },
+  "R02": {
+    "id": "R02",
+    "title": "Our World in Data sobre a matriz energética",
+    "url": "https://ourworldindata.org/energy-mix",
+    "locator": "Metodologia e revisão de agosto de 2026. O retrato histórico utilizado na aula permanece identificado separadamente.",
+    "evidence_type": "Autor do gráfico e síntese de dados",
+    "checked": "2026-11-08",
+    "original_title": "OWID: Energy mix"
+  },
+  "R03": {
+    "id": "R03",
+    "title": "Our World in Data sobre combustíveis fósseis",
+    "url": "https://ourworldindata.org/fossil-fuels",
+    "locator": "Gráfico do consumo fóssil mundial, com dados do Energy Institute e de Smil.",
+    "evidence_type": "Autor do gráfico e síntese de dados",
+    "checked": "2026-11-08",
+    "original_title": "OWID: Fossil fuels"
+  },
+  "R04": {
+    "id": "R04",
+    "title": "Our World in Data sobre emissões do transporte",
+    "url": "https://ourworldindata.org/co2-emissions-from-transport",
+    "locator": "Divisão por modo em 2018, com dados IEA e ICCT.",
+    "evidence_type": "Autor do gráfico e síntese de dados",
+    "checked": "2026-11-08",
+    "original_title": "OWID: CO₂ emissions from transport"
+  },
+  "R05": {
+    "id": "R05",
+    "title": "ADEME e Impact CO₂ base fixada de transporte",
+    "url": "https://github.com/incubateur-ademe/impactco2/blob/db0e80a605e3b3fe5c49bde3bceabced4b179656/src/data/categories/deplacement.ts",
+    "locator": "Arquivo de dados no commit db0e80a605e3b3fe5c49bde3bceabced4b179656, comparado às constantes do aplicativo.",
+    "evidence_type": "Código oficial e versão fixada dos fatores",
+    "checked": "2026-11-08",
+    "original_title": "ADEME / Impact CO₂: frozen transport data"
+  },
+  "R06": {
+    "id": "R06",
+    "title": "ADEME carro compacto ou médio a gasolina",
+    "url": "https://impactco2.fr/outils/transport/voiture-compact-essence",
+    "locator": "Valor exibido arredondado: 170 g CO₂e/passageiro-km; separação entre fabricação e combustível.",
+    "evidence_type": "Calculador oficial",
+    "checked": "2026-11-08",
+    "original_title": "ADEME: gasoline compact/medium car"
+  },
+  "R07": {
+    "id": "R07",
+    "title": "ADEME ônibus a combustão",
+    "url": "https://impactco2.fr/outils/transport/busthermique",
+    "locator": "Valor exibido arredondado: 122 g CO₂e/passageiro-km.",
+    "evidence_type": "Calculador oficial",
+    "checked": "2026-11-08",
+    "original_title": "ADEME: thermal bus"
+  },
+  "R08": {
+    "id": "R08",
+    "title": "Blondel Mispelon e Ferguson 2011 sobre ciclismo",
+    "url": "https://ecf.com/media/resources/2016/ECF_CO2_WEB.pdf",
+    "locator": "ECF/TNO. Páginas impressas 9–11: vida útil, fabricação, manutenção e hipóteses de alimentação.",
+    "evidence_type": "Relatório de modelagem ECF e TNO",
+    "checked": "2026-11-08",
+    "original_title": "Blondel, Mispelon & Ferguson (2011), Cycle more Often 2 cool down the planet!"
+  },
+  "R09": {
+    "id": "R09",
+    "title": "ICCT 2025 ciclo de vida dos carros na União Europeia",
+    "url": "https://theicct.org/wp-content/uploads/2025/07/ID-392-%E2%80%93-Life-cycle-GHG_report_final.pdf",
+    "locator": "Comparação de carros médios vendidos em 2025, com eletricidade ao longo de 2025–2044.",
+    "evidence_type": "Estudo original de modelagem de ciclo de vida",
+    "checked": "2026-11-08",
+    "original_title": "ICCT (2025): Life-cycle GHG emissions of passenger cars in the EU"
+  },
+  "R10": {
+    "id": "R10",
+    "title": "Mera e colaboradores ICCT 2023 carros no Brasil",
+    "url": "https://theicct.org/wp-content/uploads/2023/10/Brazil-LDV-LCA-report-A4-v7.pdf",
+    "locator": "Figuras 5–7, páginas impressas 15–17. Vida útil de 22 anos e 288.000 km; energia projetada para 2023–2044.",
+    "evidence_type": "Modelagem original específica para o Brasil",
+    "checked": "2026-11-08",
+    "original_title": "Mera et al. / ICCT (2023): Passenger-car life-cycle GHG emissions in Brazil"
+  },
+  "R11": {
+    "id": "R11",
+    "title": "EPE BEN 2026 ano base 2025",
+    "url": "https://www.epe.gov.br/sites-pt/publicacoes-dados-abertos/publicacoes/PublicacoesArquivos/publicacao-975/topico-847/BEN_S%C3%ADntese_2026_PT.pdf",
+    "locator": "Página impressa 35: 86,8% de renováveis na oferta interna de eletricidade, incluindo importações líquidas.",
+    "evidence_type": "Estatística energética oficial brasileira",
+    "checked": "2026-11-08",
+    "original_title": "EPE (2026): BEN 2026, base year 2025"
+  },
+  "R12": {
+    "id": "R12",
+    "title": "MCTI fatores de emissão da eletricidade",
+    "url": "https://www.gov.br/mcti/pt-br/acompanhe-o-mcti/sirene/dados-e-ferramentas/fatores-de-emissao",
+    "locator": "Distinguir o fator médio do SIN para inventários dos fatores marginais empregados no MDL.",
+    "evidence_type": "Fatores oficiais de CO₂ operacional sem ACV completa",
+    "checked": "2026-11-08",
+    "original_title": "MCTI: Electricity emission factors"
+  },
+  "R13": {
+    "id": "R13",
+    "title": "Boeing CASCADE parâmetros de energia",
+    "url": "https://docs.cascade.boeing.com/docs/costs/index.html",
+    "locator": "Tabela 58: poder calorífico inferior do Jet A de 43,2 MJ/kg e conversão entre kWh e MJ.",
+    "evidence_type": "Documentação de parâmetros de modelo da indústria",
+    "checked": "2026-11-08",
+    "original_title": "Boeing CASCADE documentation: energy and cost parameters"
+  },
+  "R14": {
+    "id": "R14",
+    "title": "Embry Riddle sobre aeronaves elétricas",
+    "url": "https://eaglepubs.erau.edu/introductiontoaerospaceflightvehicles/chapter/electric-aircraft/",
+    "locator": "Energia específica de conjuntos de baterias próxima de 0,20–0,25 kWh/kg; distinguir conjunto e célula.",
+    "evidence_type": "Livro didático universitário de engenharia aeroespacial",
+    "checked": "2026-11-08",
+    "original_title": "Embry-Riddle: Electric aircraft"
+  },
+  "R15": {
+    "id": "R15",
+    "title": "EASA sustentabilidade no fim da vida das aeronaves",
+    "url": "https://www.easa.europa.eu/en/light/topics/sustainability-end-life-phase-aircraft",
+    "locator": "Aposentadoria típica de aeronaves de passageiros após 25–30 anos; cargas frequentemente 30–40.",
+    "evidence_type": "Fonte explicativa de autoridade aeronáutica",
+    "checked": "2026-11-08",
+    "original_title": "EASA: Sustainability in the aircraft end-of-life phase"
+  },
+  "R16": {
+    "id": "R16",
+    "title": "IRENA 2021 descarbonização da navegação até 2050",
+    "url": "https://www.irena.org/-/media/Files/IRENA/Agency/Publication/2021/Oct/IRENA_Decarbonising_Shipping_2021.pdf",
+    "locator": "Página impressa 25: vida técnica usual de navios de 25–30 anos.",
+    "evidence_type": "Relatório técnico intergovernamental",
+    "checked": "2026-11-08",
+    "original_title": "IRENA (2021): A pathway to decarbonise the shipping sector by 2050"
+  },
+  "R17": {
+    "id": "R17",
+    "title": "ICAO processos de conversão de SAF",
+    "url": "https://www.icao.int/SAF/saf-conversion-processes",
+    "locator": "Tabela de rotas aprovadas; o texto de apresentação está explicitamente datado de julho de 2023.",
+    "evidence_type": "Panorama oficial de qualificação com conteúdo histórico",
+    "checked": "2026-11-08",
+    "original_title": "ICAO: SAF conversion processes"
+  },
+  "R18": {
+    "id": "R18",
+    "title": "ICAO CORSIA emissões de ciclo de vida dos combustíveis",
+    "url": "https://www.icao.int/CORSIA/fuels-lifecycle",
+    "locator": "Método que considera emissões do processo e efeitos de uso da terra.",
+    "evidence_type": "Estrutura metodológica oficial",
+    "checked": "2026-11-08",
+    "original_title": "ICAO: CORSIA fuels life-cycle emissions"
+  },
+  "R19": {
+    "id": "R19",
+    "title": "LanzaJet anúncio de Freedom Pines em 13 de novembro de 2025",
+    "url": "https://www.lanzajet.com/news-insights/lanzajet-makes-history",
+    "locator": "Anúncio da empresa de combustível de etanol dentro da especificação e operação completa da planta.",
+    "evidence_type": "Marco informado pela empresa sem auditoria independente da produção anual",
+    "checked": "2026-11-08",
+    "original_title": "LanzaJet (13 November 2025): Freedom Pines on-spec fuel announcement"
+  },
+  "R20": {
+    "id": "R20",
+    "title": "Kumar e colaboradores 2025 HTL de algas de águas residuárias",
+    "url": "https://www.pnnl.gov/publications/hydrothermal-liquefaction-wastewater-grown-algae-produce-sustainable-aviation-fuel",
+    "locator": "Energy Conversion and Management X 27, 101096. DOI 10.1016/j.ecmx.2025.101096.",
+    "evidence_type": "Estudo experimental e técnico-econômico original com resumo institucional verificado",
+    "checked": "2026-11-08",
+    "original_title": "Kumar et al. (2025): HTL of wastewater-grown algae; PNNL record"
+  },
+  "R21": {
+    "id": "R21",
+    "title": "Zhou e Hu 2020 conversão termoquímica e refino de óleo algal",
+    "url": "https://www.mdpi.com/2073-4344/10/2/145",
+    "locator": "Catalysts 10(2), 145. DOI 10.3390/catal10020145. Fonte conceitual do esquema de rotas, sem demonstrar o rendimento desta cepa.",
+    "evidence_type": "Artigo de revisão e fonte do esquema",
+    "checked": "2026-11-08",
+    "original_title": "Zhou & Hu (2020): Catalytic Thermochemical Conversion of Algae and Upgrading of Algal Oil for the Production of High-Grade Liquid Fuel: A Review"
+  },
+  "R22": {
+    "id": "R22",
+    "title": "Comissão Europeia plásticos de base biológica biodegradáveis e compostáveis",
+    "url": "https://environment.ec.europa.eu/topics/plastics/bio-based-biodegradable-and-compostable-plastics_en",
+    "locator": "Definições separam origem da matéria-prima, biodegradação e condições de compostagem.",
+    "evidence_type": "Referência oficial de terminologia",
+    "checked": "2026-11-08",
+    "original_title": "European Commission: biobased, biodegradable and compostable plastics"
+  },
+  "R23": {
+    "id": "R23",
+    "title": "Gupta e Dutra Molino e colaboradores 2025 engenharia de C pacifica para lipídios e amido",
+    "url": "https://doi.org/10.1021/acsestengg.4c00443",
+    "locator": "ACS ES&T Engineering 5, 36–49; online em 25 de novembro de 2024. Figuras 1 e 4–6. DOI 10.1021/acsestengg.4c00443.",
+    "evidence_type": "Pesquisa original com revisão por pares",
+    "checked": "2026-11-08",
+    "original_title": "Gupta & Dutra Molino et al. (2025): Engineering C. pacifica for high lipid and starch"
+  },
+  "R24": {
+    "id": "R24",
+    "title": "Dutra Molino e colaboradores 2025 descrição de C pacifica",
+    "url": "https://doi.org/10.1016/j.algal.2025.104034",
+    "locator": "Algal Research 88, 104034. DOI 10.1016/j.algal.2025.104034. Caracterização da espécie e tolerância.",
+    "evidence_type": "Pesquisa original com revisão por pares",
+    "checked": "2026-11-08",
+    "original_title": "Dutra Molino et al. (2025): Description of C. pacifica"
+  },
+  "R25": {
+    "id": "R25",
+    "title": "Gupta Oliver Dutra Molino e colaboradores 2025 fatores de transcrição endógenos",
+    "url": "https://doi.org/10.1016/j.algal.2025.104192",
+    "locator": "Algal Research 90, 104192. DOI 10.1016/j.algal.2025.104192. Figuras 5–6, métodos e lipidômica.",
+    "evidence_type": "Pesquisa original com revisão por pares",
+    "checked": "2026-11-08",
+    "original_title": "Gupta, Oliver, Dutra Molino et al. (2025): endogenous transcription factors"
+  },
+  "R26": {
+    "id": "R26",
+    "title": "Dutra Molino e colaboradores 2025 secreção de PHL7 por C reinhardtii",
+    "url": "https://www.nature.com/articles/s41598-025-09100-0",
+    "locator": "Scientific Reports 15, 24690. DOI 10.1038/s41598-025-09100-0. Ensaios com Impranil e PET e suas limitações.",
+    "evidence_type": "Pesquisa original com revisão por pares",
+    "checked": "2026-11-08",
+    "original_title": "Dutra Molino et al. (2025): PHL7 secretion from C. reinhardtii"
+  },
+  "R27": {
+    "id": "R27",
+    "title": "Diaz e Dutra Molino e colaboradores 2025 PHL7 em C pacifica",
+    "url": "https://doi.org/10.1101/2025.05.14.654053",
+    "locator": "bioRxiv v1 de 15 de maio de 2025. DOI 10.1101/2025.05.14.654053. Resumo e metadados verificados; as máximas numéricas não foram recomputadas.",
+    "evidence_type": "Pré-publicação sem versão de periódico vinculada na consulta à API",
+    "checked": "2026-11-08",
+    "original_title": "Diaz & Dutra Molino et al. (2025): PHL7 production in C. pacifica"
+  },
+  "R28": {
+    "id": "R28",
+    "title": "Dados suplementares depositados pelos autores em 2025",
+    "url": "https://zenodo.org/records/15411934",
+    "locator": "DOI 10.5281/zenodo.15411934. Registro e metadados confirmados; download do arquivo retornou acesso negado e os dados não foram recomputados.",
+    "evidence_type": "Dados primários depositados com análise independente pendente",
+    "checked": "2026-11-08",
+    "original_title": "Authors’ supplementary dataset (2025)"
+  },
+  "R29": {
+    "id": "R29",
+    "title": "Gunawan e colaboradores 2020 biodegradação de espumas renováveis de PU",
+    "url": "https://doi.org/10.1016/j.biteb.2020.100513",
+    "locator": "Bioresource Technology Reports 11, 100513. DOI 10.1016/j.biteb.2020.100513. Ensaios específicos em solo e composto.",
+    "evidence_type": "Pesquisa original com revisão por pares",
+    "checked": "2026-11-08",
+    "original_title": "Gunawan et al. (2020): biodegradation of renewable PU foams"
+  },
+  "R30": {
+    "id": "R30",
+    "title": "Kang e colaboradores 2025 engenharia de C incerta para proteínas recombinantes",
+    "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0321071",
+    "locator": "PLOS ONE. DOI 10.1371/journal.pone.0321071. Expressão em laboratório, sem validação comercial em escala.",
+    "evidence_type": "Pesquisa original com revisão por pares",
+    "checked": "2026-11-08",
+    "original_title": "Kang et al. (2025): engineering C. incerta for recombinant protein production"
+  },
+  "R31": {
+    "id": "R31",
+    "title": "Dutra Molino e colaboradores 2022 exposição de proteínas na superfície de C reinhardtii",
+    "url": "https://doi.org/10.1016/j.algal.2021.102570",
+    "locator": "Algal Research, 102570. DOI 10.1016/j.algal.2021.102570. Identificação bibliográfica; resultados específicos da figura não foram verificados no texto integral.",
+    "evidence_type": "Artigo original identificado com verificação integral pendente",
+    "checked": "2026-11-08",
+    "original_title": "Dutra Molino et al. (2022): cell-surface display in C. reinhardtii"
+  },
+  "R32": {
+    "id": "R32",
+    "title": "ADEME voo curto",
+    "url": "https://impactco2.fr/outils/transport/avion-courtcourrier",
+    "locator": "225 g CO₂e/passageiro-km para rotas de 300–1.000 km, incluindo rastros de condensação e excluindo infraestrutura.",
+    "evidence_type": "Calculador oficial consultado em 8 de novembro de 2026",
+    "checked": "2026-11-08",
+    "original_title": "ADEME: short flight"
+  },
+  "R33": {
+    "id": "R33",
+    "title": "ADEME voo médio",
+    "url": "https://impactco2.fr/outils/transport/avion-moyencourrier",
+    "locator": "185 g CO₂e/passageiro-km para rotas de 1.000–2.000 km.",
+    "evidence_type": "Calculador oficial consultado em 8 de novembro de 2026",
+    "checked": "2026-11-08",
+    "original_title": "ADEME: medium flight"
+  },
+  "R34": {
+    "id": "R34",
+    "title": "ADEME voo longo",
+    "url": "https://impactco2.fr/outils/transport/avion-longcourrier",
+    "locator": "178 g CO₂e/passageiro-km para rotas acima de 5.000 km.",
+    "evidence_type": "Calculador oficial consultado em 8 de novembro de 2026",
+    "checked": "2026-11-08",
+    "original_title": "ADEME: long flight"
+  },
+  "R35": {
+    "id": "R35",
+    "title": "Governo britânico 2026 método de fatores de gases de efeito estufa",
+    "url": "https://assets.publishing.service.gov.uk/media/6a2940543b15d05a7ce3202e/2026-GHG-conversion-factors-methodology-report.pdf",
+    "locator": "Referência alternativa de transporte que distingue cabine, distância, cadeia do combustível e tratamento dos efeitos não relacionados ao CO₂.",
+    "evidence_type": "Metodologia oficial alternativa fora do cenário atual do painel",
+    "checked": "2026-11-08",
+    "original_title": "UK government (2026): GHG conversion-factor methodology"
+  },
+  "R36": {
+    "id": "R36",
+    "title": "Klein Davis e Wiatrowski 2024 cultivo de algas em tanques abertos",
+    "url": "https://www.nrel.gov/docs/fy24osti/88802.pdf",
+    "locator": "NREL TP-5100-88802. DOI 10.2172/2370102. Média anual de 16,7 g de massa seca livre de cinzas/m²/dia com rotação sazonal.",
+    "evidence_type": "Dados originais de cultivo e referência técnico-econômica",
+    "checked": "2026-11-08",
+    "original_title": "Klein, Davis & Wiatrowski (2024): Open-pond algal biomass state of technology"
+  },
+  "R37": {
+    "id": "R37",
+    "title": "Algae Farm jogo didático atual",
+    "url": "https://molino-algae.github.io/justlab-site/games/algae-farm/?minutos=6&modo=direto&cenario=fixo",
+    "locator": "As regras de recursos e pontuação são hipóteses de ensino, sem equivaler a coeficientes validados de processo ou ACV.",
+    "evidence_type": "Atividade de aula",
+    "checked": "2026-11-08",
+    "original_title": "Algae Farm: current teaching game"
+  },
+  "R38": {
+    "id": "R38",
+    "title": "Apresentação pública da aula",
+    "url": "https://molino-algae.github.io/algae-sustainable-future/",
+    "locator": "21 slides HTML com enquete de mobilidade e jogo incorporados.",
+    "evidence_type": "Objeto da auditoria",
+    "checked": "2026-11-08",
+    "original_title": "Live class presentation"
+  }
+}

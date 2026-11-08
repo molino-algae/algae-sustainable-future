@@ -1,0 +1,11 @@
+MATERIAIS DA AULA SOBRE ALGAS
+Edição em português — 8 de novembro de 2026
+
+O guia de estudo está em PDF para leitura e em Word para edição. As notas do docente trazem o roteiro de 60 minutos, explicações e discussão do jogo.
+Anki: importe Revisao_Algas_PT.apkg em Arquivo > Importar. São 36 cartões com fontes nas respostas. O baralho em português tem identificadores diferentes do arquivo em inglês, preservando ambos se desejar.
+Alternativa TSV: arquivo UTF-8 com Frente, Verso e Etiquetas. Utilize um tipo de nota com dois campos, permita HTML e associe a terceira coluna às etiquetas. Importe o pacote OU o TSV para evitar duplicação.
+Documentação de importação: https://docs.ankiweb.net/manual/importing/text-files
+
+Exemplos hipotéticos estão identificados e separados dos resultados publicados. Quatro máximas de cultivo ainda sem confirmação independente não entram como fatos estabelecidos.
+A apresentação mantém o painel, o QR da coleta ativa e o Algae Farm em português. As atividades ao vivo precisam de internet. O link de gestão é pessoal e não deve ser compartilhado com estudantes.
+As versões anteriores em inglês estão no arquivo da aula e do repositório. Fontes científicas mantêm seus títulos e idiomas originais quando necessário à identificação bibliográfica.

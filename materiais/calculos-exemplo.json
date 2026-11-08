@@ -1,0 +1,21 @@
+{
+  "unidade": "kg CO₂e por semana habitual",
+  "trajetos": "ida e volta separadas; sem fator2 adicional",
+  "ana": {
+    "passageiro_km": 112,
+    "onibus_km": 56,
+    "bicicleta_km": 56,
+    "kg": 6.86504
+  },
+  "bruno": {
+    "passageiro_km": 80,
+    "kg": 13.576641978363469
+  },
+  "turma": {
+    "passageiro_km": 192,
+    "kg": 20.44168197836347,
+    "media_por_pessoa_kg": 10.220840989181735,
+    "voo_curto_kg": 43.2
+  },
+  "cuidado": "Exemplo fictício, sem usar ou alterar respostas reais."
+}

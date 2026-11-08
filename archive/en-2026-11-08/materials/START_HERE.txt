@@ -1,0 +1,14 @@
+ALGAE CLASS STUDY MATERIALS
+Stage 2 English review edition — 8 November 2026
+
+Student guide: the PDF is for reading and sharing after the class; the DOCX is editable.
+Presenter notes: separate timed preparation notes for the 60-minute class.
+Anki: import Algae_Revision_EN.apkg using Anki File > Import. This package contains 36 new English question-and-answer cards; it does not change your existing Anki settings.
+TSV alternative: UTF-8 with Front, Back and Tags columns. Use the Basic note type, allow HTML, and map column 3 to Tags. Sources are included on each answer. Use the package OR the TSV to avoid a second import of the same cards.
+Anki text import documentation: https://docs.ankiweb.net/manual/importing/text-files
+
+The guide labels invented examples separately from reported results. Four unverified pond maxima from the added research slides are not presented as established teaching facts. Reference codes match the Stage 1 audit.
+
+The presentation and live poll have not been modified. Use the current presentation QR for the active poll collection. Algae Farm is already Portuguese and remains linked to the presentation.
+
+Stage 3 remains pending review: Portuguese adaptation of the guide, notes, presentation and Anki, followed by archiving the English versions in the same class folder/repository. The present files are English review materials, not the final Portuguese student edition.
