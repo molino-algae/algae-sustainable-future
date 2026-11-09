@@ -73,7 +73,7 @@ R01 — Material fornecido da disciplina Sustainable Future · PDFs indexados no
 
 ## 8 Carros elétricos no ciclo de vida
 
-20–23 min. Compare veículos da mesma categoria. O ICCT Brasil 2023 estimou, em g CO₂e por veículo-km, os seguintes valores para flex só a gasolina C, flex com uso médio de gasolina C e etanol hidratado, e elétrico a bateria, nessa ordem. Compacto 186, 155 e 55. Médio 186, 155 e 52. SUV compacto 217, 181 e 59. Os dois cenários de combustão usam o mesmo veículo flex, com abastecimentos diferentes. Gasolina C é a gasolina comercial com etanol anidro na formulação.
+20–23 min. Compare veículos da mesma categoria. O ICCT Brasil 2023 estimou, em g CO₂e por veículo-km, os valores para flex só a gasolina C, flex com uso médio de gasolina C e etanol hidratado, flex só com etanol hidratado e elétrico a bateria, nessa ordem. Compacto 186, 155, 107, 55. Médio 186, 155, 107, 52. SUV compacto 217, 181, 125, 59. Os três cenários de combustão usam o mesmo veículo flex, com abastecimentos diferentes. Gasolina C é a gasolina comercial com etanol anidro na formulação.
 
 As barras distribuem as emissões modeladas por 288.000 km em 22 anos. Entram a extração de matérias-primas, a fabricação, a manutenção, a produção e o uso de combustível ou eletricidade, e a reciclagem do chassi e do conjunto de propulsão. Para a bateria, entra a produção, com crédito zero para reciclagem ou segunda vida. Os cenários de combustíveis e eletricidade seguem as projeções do estudo para 2023–2044.
 
