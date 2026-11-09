@@ -212,3 +212,5 @@ R37 — Algae Farm jogo didático atual · As regras de recursos e pontuação s
 ## Imagens científicas
 
 Fotografia de tanques: Research_exemple.pptx, slides 6–7, associada à pré-publicação R27. Fotografias de produtos: Aula 18 p 15 / estudo ACS R23. Identificadores das amostras e legendas originais preservados; explicações em português nas notas. As figuras científicasCCBY-NC-NDnão foram traduzidas dentro da imagem. Esquemas didáticos novos não são figuras experimentais originais.
+
+Slide 17. Painel de gradientes de luz e de pH fornecido pelo docente. Rótulos originais e indicação de contraste e brilho preservados.

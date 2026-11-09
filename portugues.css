@@ -89,3 +89,37 @@
   height: 231px;
   object-position: center 65%;
 }
+
+.selection-slide > .flow {
+  top: 112px;
+}
+.selection-slide > .flow > div {
+  padding: 9px 6px 0;
+  font-size: 23px;
+}
+.selection-slide > .flow > span {
+  font-size: 29px;
+}
+.selection-slide .selection-experiment {
+  position: absolute;
+  top: 166px;
+  left: 50%;
+  width: 1000px;
+  margin: 0;
+  transform: translateX(-50%);
+}
+.selection-slide .selection-experiment img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.selection-slide .selection-question {
+  top: 618px;
+}
+.selection-slide .selection-question strong {
+  font-size: 34px;
+}
+.selection-slide .selection-question p {
+  margin-top: 8px;
+  font-size: 22px;
+}
